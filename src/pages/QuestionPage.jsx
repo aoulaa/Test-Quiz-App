@@ -40,7 +40,7 @@ export default function QuestionPage() {
         }
     }
     return (
-        <section className={cn('section has-background-danger-light  is-medium', css(styles.section))}>
+        <section className={cn('section is-medium', css(styles.section))}>
             <div className={cn("container has-text-centered box", css(styles.container))}>
                 {!question.loading ? <Questionnaire
                     key={questionList[currentQuestion]?.id}

@@ -18,7 +18,7 @@ export default function ResultPage() {
     console.log(submitResultList)
 
     return (
-        <section className={cn('section has-background-danger-light  is-medium', css(styles.section))}>
+        <section className={cn('section is-medium', css(styles.section))}>
             <div className={cn('container box', css(styles.container))}>
                 <div className="is-centered  is-flex is-flex-direction-column
                 is-align-items-center py-6 has-text-centered">
